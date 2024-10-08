@@ -1,7 +1,7 @@
 // JavaScript Expressions and Conditions Exercise
 
 // 1. Variable Declaration and Assignment
-let num1 = 10; // A number
+let num1 = 3; // A number
 let num2 = "10"; // A string with a numeric value
 let isTrue = true; // A boolean
 
@@ -48,3 +48,16 @@ if (num1 > 15) {
 // 5. Clear Comments
 
 // We've added comments throughout the code to explain each comparison and conditional statement.
+
+// Find out if the num1 variable is even
+if (num1 % 2 === 0) {
+  console.log("Number 1 is even!");
+} else {
+  console.log("I am odd!");
+}
+
+//find out what 10*num1 is
+console.log("num1 times 10 =", num1 * 10);
+
+//test if num1 is not 5
+console.log("Am I not 5?", num1 !== 5)
